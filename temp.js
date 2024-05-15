@@ -12,4 +12,5 @@
 let name = "olim";
 let surname = "Sunnatov";
 
+let name2 = 10;
 const PI = 2.14;

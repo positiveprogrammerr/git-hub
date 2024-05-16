@@ -14,7 +14,7 @@ let person = {
 }
 
 let animal = {
-    name : lion,
+    name : "lion",
     age : 50,
 }
 

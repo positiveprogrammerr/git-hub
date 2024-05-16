@@ -4,21 +4,26 @@ let a = 10;
 let b = 20;
 
 a = b;
-b = 30;
+a = 30;
 
 console.log(a,b);
 
-let person = {
-    name : "James",
-    age : 20,
-}
+// Original object
+let originalObject = {
+    name: "John",
+    age: 30,
+    hobbies: ["reading", "traveling"]
+};
 
-let animal = {
-    name : "lion",
-    age : 50,
-}
+// Copying the original object to a new variable
+let copiedObject = originalObject;
 
-person = animal;
+// Modifying the copied object
+copiedObject.name = "Jane";
+copiedObject.hobbies.push("cooking");
 
-animal.age = 30;
+// Checking the original object
+console.log(originalObject);
 
+
+console.log(person,animal);
